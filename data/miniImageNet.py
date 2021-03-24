@@ -12,7 +12,6 @@ random.seed(123)
 class NC_miniImageNet():
     def __init__(self, args, transform=None, c_way=5, k_shot=5):
         self.name = 'NC_MiniImageNet'
-        self._train = train
         self.Datasets_dir = settings.miniImagenet_Datasets_Dir
         self.IndexDir = settings.miniImagenet_Index_DIR
         self.transform = transform
