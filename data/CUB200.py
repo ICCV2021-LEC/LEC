@@ -11,7 +11,7 @@ random.seed(123)
 class NC_CUB200():
     def __init__(self, args, transform=None, c_way=5, k_shot=5):
         self.name = 'NC_CUB200'
-        self.Datasets_dir = settings.Datasets_Dir
+        self.Datasets_dir = settings.CUB200_Datasets_Dir
         self.IndexDir = os.path.join(settings.CUB200_Index_DIR,args.seed)
         self.transform = transform
         self.count = 0
