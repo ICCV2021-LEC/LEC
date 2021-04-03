@@ -11,10 +11,10 @@ ROOT_DIR = osp.abspath(osp.join(osp.dirname(__file__), '..', '..'))
 
 CIFA100_DIR = osp.abspath('/userhome/Datasets/cifar100')
 
-CUB200_Index_DIR = osp.abspath('/userhome/Datasets/Birds200/CUB_200_2011/Index_list/')
+CUB200_Index_DIR = osp.abspath('./data_list/CUB200/Index_list/')
 CUB200_Datasets_Dir = osp.abspath('/userhome/Datasets/Birds200')
 
-miniImagenet_Index_DIR = osp.abspath('/userhome/Datasets/mini_imagenet/index_list')
+miniImagenet_Index_DIR = osp.abspath('./data_list/miniImageNet/Index_list/')
 miniImagenet_Datasets_Dir = osp.abspath('/userhome/Datasets/mini_imagenet/images')
 
 # Image Size
