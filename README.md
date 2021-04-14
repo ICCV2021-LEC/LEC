@@ -9,7 +9,7 @@ Anonymous code for ICCV 2021 "Learnable Expansion-and-Compression Network for Fe
 - `snapshots/` contains the pretrained LECNet parameters;
 - `utils/` contains other dependency;
 
-<table>
+<table align="center">
     <caption>Performance comparison on CUB with Resnet18 backbone</caption>
     <tr>
         <td rowspan=2>Method</td> 
@@ -41,5 +41,36 @@ Anonymous code for ICCV 2021 "Learnable Expansion-and-Compression Network for Fe
         <td>36.58</td> 
         <td>33.56</td> 
         <td>31.96</td> 
+    </tr>
+</table>
+
+<table align="center">
+    <caption>Performance comparison on CIFAR100 with Resnet18 backbone</caption>
+    <tr>
+        <td rowspan=2>Method</td> 
+        <td colspan="9">Sessions</td> 
+   </tr>
+    <tr>
+        <td>0</td> 
+        <td>1</td> 
+        <td>2</td> 
+        <td>3</td> 
+        <td>4</td> 
+        <td>5</td> 
+        <td>6</td> 
+        <td>7</td> 
+        <td>8</td> 
+    </tr>
+    <tr>
+        <td>LEC-Net</td> 
+        <td>64.10</td> 
+        <td>53.23</td> 
+        <td>44.19</td> 
+        <td>41.87</td> 
+        <td>38.54</td> 
+        <td>39.54</td> 
+        <td>37.34</td> 
+        <td>34.73</td> 
+        <td>34.73</td> 
     </tr>
 </table>
