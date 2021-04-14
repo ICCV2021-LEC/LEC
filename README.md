@@ -8,3 +8,38 @@ Anonymous code for ICCV 2021 "Learnable Expansion-and-Compression Network for Fe
 - `models/` contains the implementation of the LECNet(`LECNet.py`) and the Resnet backbone file;
 - `snapshots/` contains the pretrained LECNet parameters;
 - `utils/` contains other dependency;
+
+<table>
+    <caption>Performance comparison on CUB with Resnet18 backbone</caption>
+    <tr>
+        <td rowspan=2>Method</td> 
+        <td colspan="11">Sessions</td> 
+   </tr>
+    <tr>
+        <td>0</td> 
+        <td>1</td> 
+        <td>2</td> 
+        <td>3</td> 
+        <td>4</td> 
+        <td>5</td> 
+        <td>6</td> 
+        <td>7</td> 
+        <td>8</td> 
+        <td>9</td> 
+        <td>10</td> 
+    </tr>
+    <tr>
+        <td>LEC-Net</td> 
+        <td>70.86</td> 
+        <td>58.15</td> 
+        <td>54.83</td> 
+        <td>49.34</td> 
+        <td>45.85</td> 
+        <td>40.55</td> 
+        <td>39.70</td> 
+        <td>34.59</td> 
+        <td>36.58</td> 
+        <td>33.56</td> 
+        <td>31.96</td> 
+    </tr>
+</table>
