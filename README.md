@@ -10,7 +10,7 @@ Anonymous code for ICCV 2021 "Learnable Expansion-and-Compression Network for Fe
 - `utils/` contains other dependency;
 
 <table style="text-align:center">
-    <caption align="center">Performance comparison on CUB with Resnet18 backbone</caption>
+    <caption style="text-align:center">Performance comparison on CUB with Resnet18 backbone</caption>
     <tr>
         <td rowspan=2>Method</td> 
         <td colspan="11" align="center">Sessions</td> 
@@ -45,7 +45,7 @@ Anonymous code for ICCV 2021 "Learnable Expansion-and-Compression Network for Fe
 </table>
 
 <table style="text-align:center">
-    <caption align="center">Performance comparison on CIFAR100 with Resnet18 backbone</caption>
+    <caption style="text-align:center">Performance comparison on CIFAR100 with Resnet18 backbone</caption>
     <tr>
         <td rowspan=2>Method</td> 
         <td colspan="9" align="center">Sessions</td> 
