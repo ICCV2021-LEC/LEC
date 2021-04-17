@@ -1,5 +1,5 @@
 # LEC-Net
-Anonymous code for ICCV 2021 "Learnable Expansion-and-Compression Network for Few-shot Class-Incremental Learning", paper id 2389
+Anonymous code for ICCV 2021 "Learnable Expansion-and-Compression Network for Few-shot Class-Incremental Learning", paper id 2389.
 
 ## Overview
 - `config/` contains the config file;
@@ -9,6 +9,19 @@ Anonymous code for ICCV 2021 "Learnable Expansion-and-Compression Network for Fe
 - `snapshots/` contains the pretrained LECNet parameters;
 - `utils/` contains other dependency;
 
+## Dependencies
+- Python 3.7
+- Pytorch 1.0.0
+
+## Inference on CUB200
+Firstly, the PATH of CUB200 dataset should be modified in `config/settings.py` in which `CUB200_Datasets_Dir` denotes the CUB dataset direction.
+
+And then, the LEC-Net can be test using the pretrained model by:
+```
+python Inc_test.py
+```
+
+## Performance
 <table align="center">
     <caption style="text-align:center">Performance comparison on CUB with Resnet18 backbone</caption>
     <tr>
